@@ -1,4 +1,9 @@
- import java.util.*;
+/* WRITE A Java program to  take input  of a number N  and check if the reverse of N is  same as that of   N
+ if yes  print palindrome.
+
+*/
+
+import java.util.*;
  
  
  class Mock1Example1 {
