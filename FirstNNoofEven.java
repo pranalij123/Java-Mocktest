@@ -1,7 +1,7 @@
  
  //write programm to print first 10 even numbers
  
- class EvenNoInRage {
+ class FirstNNoofEven {
     public static void main(String[] args) {
        int num=0;
        int count=0;
