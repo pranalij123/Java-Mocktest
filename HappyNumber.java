@@ -3,39 +3,26 @@ public class HappyNumber {
         
         int n=100;
         
+       int sum=0;
+     while(n>9 || sum>9){
+        if(n==0){
+            n=sum;
+            sum=0;
+        }
+        while(n>0){
+            int r=n%10;
+            sum=(r*r)+sum;
+            n=n/10;
+        }
+        System.out.println(sum);
+     }   
+     if(sum==1){
+        System.out.println("happy number");
+     }
+     else{
+        System.out.println("not happy number");
+     }
         
-        if(n>9){
-            while(true){
-                int sum=0;
-                while(n>0){
-                    int rem=n%10;
-                    sum=sum+(rem*rem);
-                    n=n/10;
-                }
-                
-                if(sum<10){
-                    if(sum==1){
-                        System.out.println("happy number");
-                        break;
-                    }
-                    else{
-                        System.out.println("not happy number");
-                        break;
-                    }
-                }
-                else{
-                    n=sum;
-                }
-            }
-        }
-        else{
-            if(n==1){
-                System.out.println("happy number");
-            }
-            else{
-                System.out.println("not happy number");
-            }
-        }
     }
 }
 /*output:
