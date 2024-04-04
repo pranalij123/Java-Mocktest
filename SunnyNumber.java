@@ -5,7 +5,8 @@ public class SunnyNumber {
         int n=80;
         
         int r=0;
-       for(int i=0;i<n;i++){
+        int i=0;
+       for(;i<n;i++){
         r=i*i;
         int w=r-1;
         if(w==n){
