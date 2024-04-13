@@ -2,19 +2,23 @@ import java.util.Scanner;
 public class CurrencyConvertor{
     public static void usDoller(float a){
         double r=a/83.61;
-        System.out.println(a+"Rs means "+r+" $");
+        float r1=(float) r;
+        System.out.println(a+"Rs means "+r1+" $");
     }
     public static void euro(float a){
         double r=a/89.23;
-        System.out.println(a+"Rs means "+r+" euro");
+        float r1=(float) r;
+        System.out.println(a+"Rs means "+r1+" euro");
     }
     public static void austrilianDoller(float a){
         double r=a/54.25;
-        System.out.println(a+"Rs means "+r+" AU$");
+        float r1=(float) r;
+        System.out.println(a+"Rs means "+r1+" AU$");
     }
     public static void kuwaitiDinar(float a){
         double kwd=a/270.69;
-        System.out.println(a+"Rs means "+kwd+" KWD");
+        float r1=(float) kwd;
+        System.out.println(a+"Rs means "+r1+" KWD");
     }
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
@@ -47,8 +51,7 @@ public class CurrencyConvertor{
     }
 }
 /*output:
-CT: success
-RT:Enter the value in Rupees
+nter the value in Rupees
 200
 In which currency do you want to convert it?
 1.Us Doller
@@ -56,6 +59,7 @@ In which currency do you want to convert it?
 3.Austrilian Doller
 4.Kuwaiti Dinar
 enter your choice
-2
-200.0Rs means 2.241398632746834 euro
+1
+200.0Rs means 2.3920584 $
+
 */
