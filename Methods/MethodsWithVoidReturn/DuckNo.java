@@ -1,5 +1,4 @@
-//A strong number is a positive integer whose sum of factorials of its digits equals the number itself. In other words, if we take the digits of a number and calculate the factorial of each digit, then sum those factorials, and the result is the same as the original number, then that number is called a strong number
-
+/*Duck number is number which contain atlist one 0 */
 import java.util.Scanner;
 
 class DuckNo{
