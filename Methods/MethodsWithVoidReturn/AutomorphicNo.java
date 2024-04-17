@@ -1,4 +1,5 @@
-
+/* square which contain squareroot as last digit of that square 
+ex. 5*5=25   here 25 contain 5 */
 import java.util.Scanner;
 
 class AutomorphicNo{
