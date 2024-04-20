@@ -5,7 +5,7 @@ class A1{
     public static void demo(){
         System.out.println(a);
         a=10;
-        System.out.println(A.a);
+        System.out.println(A1.a);
     }
         public static void main(String[] args) {
       
