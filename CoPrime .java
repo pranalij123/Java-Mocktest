@@ -10,7 +10,7 @@ public class CoPrime {
         int b=11;
         int small=a<b?a:b;
         int count=0;
-        for(int i=2;i>0;i++){
+        for(int i=2;i<=small;i++){
             if(a%i==0 && b%i==0){
             count++;
             if(count>0){
